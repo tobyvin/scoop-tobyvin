@@ -14,7 +14,7 @@
     "uninstaller": {
         "script": [
             "# Remove alias",
-            "scoop alias add gui"
+            "scoop alias rm gui"
         ]
     }
 }
