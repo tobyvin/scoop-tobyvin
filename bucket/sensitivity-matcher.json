@@ -1,0 +1,30 @@
+{
+    "homepage": "https://github.com/KovaaK/SensitivityMatcher",
+    "license": "GNU",
+    "version": "1.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/KovaaK/SensitivityMatcher/releases/download/1.4/SensitivityMatcher_exe.zip",
+            "hash": "162969cf166877d2518dbd079244df3fd77b4ee0d2819da64a3ad6a9251aab64"
+        }
+    },
+    "bin": "SensitivityMatcher.exe",
+    "persist": [
+        "CustomYawList.ini",
+        "UserSettings.ini"
+    ],
+    "shortcuts": [
+        [
+            "SensitivityMatcher.exe",
+            "Sensitivity Matcher"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/KovaaK/SensitivityMatcher/releases/download/$version/SensitivityMatcher_exe.zip"
+            }
+        }
+    }
+}
