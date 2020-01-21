@@ -4,7 +4,6 @@
     "version": "v0.8.1",
     "url": "https://github.com/prezesp/scoop-viewer/releases/download/v0.8.1/scoop-viewer.zip",
     "bin": "scoop-viewer\\scoopviewer.exe",
-    "post_install": "scoop alias add gui scoopviewer",
     "installer": {
         "script": [
             "# Add alias",
