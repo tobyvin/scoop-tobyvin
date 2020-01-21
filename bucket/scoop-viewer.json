@@ -3,6 +3,7 @@
     "description": "A gui client for scoop",
     "version": "v0.8.1",
     "url": "https://github.com/prezesp/scoop-viewer/releases/download/v0.8.1/scoop-viewer.zip",
+    "hash": "asdlaksdkfsdfasdfsdfasdflasdflakjsdfnskdjfn"
     "bin": "scoop-viewer\\scoopviewer.exe",
     "installer": {
         "script": [
