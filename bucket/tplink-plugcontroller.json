@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/MaxAnderson95/TPLink-PlugController-PowerShell",
+    "description": "Control TPLink Smart Plug with PowerShell",
+    "license": "GPLv3",
+    "version": "1.0.0",
+    "url": "https://github.com/MaxAnderson95/TPLink-PlugController-PowerShell/archive/master.zip",
+    "hash": "bfeb4045ab5ed5d313329c0a79c44138573d6c518950d9ed3552723f70e85dde",
+    "extract_dir": "TPLink-PlugController-PowerShell-master",
+    "psmodule": {
+        "name": "TPLink-PlugController"
+    },
+    "checkver": "github"
+}
+
