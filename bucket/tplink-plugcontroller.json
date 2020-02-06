@@ -7,7 +7,7 @@
     "hash": "69df53b34902d7bbc45a220d5f9db205c73bd5b15bf1a86f194227142c00f624",
     "extract_dir": "TPLink-PlugController-PowerShell-master",
     "psmodule": {
-        "name": "TPLink-PlugController"
+        "name": "TPLink-PlugController-PowerShell"
     },
     "checkver": "github"
 }
