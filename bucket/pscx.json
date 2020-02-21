@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/Pscx/Pscx",
+    "description": "PowerShell Community Extensions module repository",
+    "license": "MIT",
+    "version": "3.3.2",
+    "url": "https://github.com/Pscx/Pscx/archive/v3.3.2.zip",
+    "hash": "bfeb4045ab5ed5d313329c0a79c44138573d6c518950d9ed3552723f70e85dde",
+    "extract_dir": "Pscx-3.3.2/Src",
+    "psmodule": {
+        "name": "Pscx"
+    },
+    "checkver": "github"
+}
