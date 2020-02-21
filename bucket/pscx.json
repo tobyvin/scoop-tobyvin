@@ -9,5 +9,6 @@
     "psmodule": {
         "name": "Pscx"
     },
+    "notes": "DO NOT USE: Broken install",
     "checkver": "github"
 }
