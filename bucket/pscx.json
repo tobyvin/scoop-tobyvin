@@ -5,7 +5,7 @@
     "version": "3.3.2",
     "url": "https://github.com/Pscx/Pscx/archive/v3.3.2.zip",
     "hash": "25b219dc9bd9c1d3cf2384ea2f668e6a4e94e819024cb24cde7f487b3e8725dd",
-    "extract_dir": "Pscx-3.3.2/Src",
+    "extract_dir": "Pscx-3.3.2/Src/Pscx",
     "psmodule": {
         "name": "Pscx"
     },
