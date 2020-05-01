@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/hellrage/NC-Reactor-Planner",
     "license": "CC0",
-    "version": "1.2.23",
+    "version": "1.2.24",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hellrage/NC-Reactor-Planner/releases/download/v1.2.23/NC.Reactor.Planner.1.2.23.exe",
-            "hash": "c0e00b11014f18f936690c6f4b9fa4dbf4b588e9e4c3a68a5f940c4bd3a871ad"
+            "url": "https://github.com/hellrage/NC-Reactor-Planner/releases/download/v1.2.24/NC.Reactor.Planner.1.2.24.exe",
+            "hash": "dfe9e6b26353673c03bc4798fddd0f38cc0e9bb792cc084b423b89fc2efe3d1a"
         }
     },
     "bin": "reactor-planner.exe",
