@@ -2,10 +2,8 @@
     "homepage": "https://gist.github.com/jpoehls/2891103",
     "license": "MIT",
     "version": "1.0.0",
-    "url": [
-        "https://gist.githubusercontent.com/jpoehls/2891103/raw/1bd8725955c25067d1a0a9e3f2d8c66e416c20dc/mklink.psm1",
-    ],
-    "hash": "515acbd12dc4f6fb65d9c0bce0af95d92f3a6fe024c98a002eb45f5a1a5ae950",
+    "url": "https://gist.githubusercontent.com/jpoehls/2891103/raw/1bd8725955c25067d1a0a9e3f2d8c66e416c20dc/mklink.psm1",
+    "hash": "63b68c08dcc3535b66fb6ff6e45962ddc6e8a1a64f215a49d7725d6ef3db7866",
     "psmodule": {
         "name": "mklink"
     }
