@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Nexus-Mods/Vortex",
     "description": "Open-source mod manager from Nexus Mods",
-    "version": "1.2.10",
+    "version": "1.2.20",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v1.2.10/vortex-setup-1.2.10.exe#/dl.7z",
+    "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v1.2.20/vortex-setup-1.2.20.exe#/dl.7z",
     "hash": "ce38d714ac0dda0fa4d7cf21df13678b3d6531c852d99e07f881507e5efe62df",
     "architecture": {
         "64bit": {
