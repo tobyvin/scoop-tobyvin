@@ -1,13 +1,13 @@
 {
-    "version": "15.0.0.201",
+    "version": "15.0.0.204",
     "description": "An anti-adblock defuser for Nano Adblocker and uBlock Origin",
     "homepage": "https://github.com/jspenguin2017/uBlockProtector",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/jspenguin2017/uBlockProtector/blob/master/LICENSE"
     },
-    "url": "https://github.com/jspenguin2017/uBlockProtector/releases/download/v15.0.0.201/nano_defender_chromium_pro.zip",
-    "hash": "0109e5b5f38c908a8c7b23be62665d1c673b920ba366d64c62c93a5eadea3d9f",
+    "url": "https://github.com/jspenguin2017/uBlockProtector/releases/download/v15.0.0.204/nano_defender_chromium_pro.zip",
+    "hash": "c40720cc11eac2572e92934a75185011f0f2767810e9970e83b78523c1db9172",
     "##": "UN/INSTALLER DOES NOT WORK",
     "installer": {
         "script": "'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe' --load-extension=$dir"
