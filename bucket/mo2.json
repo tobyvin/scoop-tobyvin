@@ -15,8 +15,7 @@
     "persist": [
         "mods",
         "profiles",
-        "ModOrganizer.ini",
-        "nxmhandler.ini"
+        "ModOrganizer.ini"
     ],
     "checkver": {
         "github": "https://github.com/ModOrganizer2/modorganizer"
