@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "description": "A lightweight @discord client mod focused on simplicity and performance.",
+    "homepage": "https://powercord.dev/",
+    "license": {
+        "identifier": "Porkord",
+        "url": "https://raw.githubusercontent.com/powercord-org/powercord/v2/LICENSE"
+    },
+    "depends": [
+        "nodejs",
+        "discord-canary"
+    ],
+    "url": "https://raw.githubusercontent.com/powercord-org/powercord/v2/changelogs.json",
+    "hash": "5f8f7a0cfecbf2e9c36b76598980eac23f67b56d9e4087c362ad5c339624fc68",
+    "persist": [
+        ["src/Powercord/plugins", "plugins"],
+        ["src/Powercord/themes", "themes"],
+        "settings"
+    ],
+    "pre_install": [
+        "cd $dir",
+        "rm changelogs.json",
+        "git clone https://github.com/powercord-org/powercord ."
+    ],
+    "installer": {
+        "script": [
+            "cd $dir",
+            "npm i",
+            "$discord = $(appdir discord-canary).replace('\\','/')",
+            "Set-Content $dir/injectors/win32.js \"exports.getAppDir = async () => '$discord/current/resources/app';\" ",
+            "npm run plug"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "cd $dir",
+            "$discord = $(appdir discord-canary).replace('\\','/')",
+            "Set-Content $dir/injectors/win32.js \"exports.getAppDir = async () => '$discord/current/resources/app';\" ",
+            "npm run unplug"
+        ]
+    },
+    "notes": "Be sure to restart the Discord client."
+}
