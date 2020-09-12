@@ -12,11 +12,6 @@
     ],
     "url": "https://raw.githubusercontent.com/powercord-org/powercord/v2/changelogs.json",
     "hash": "5f8f7a0cfecbf2e9c36b76598980eac23f67b56d9e4087c362ad5c339624fc68",
-    "persist": [
-        ["src/Powercord/plugins", "plugins"],
-        ["src/Powercord/themes", "themes"],
-        "settings"
-    ],
     "pre_install": [
         "cd $dir",
         "rm changelogs.json",
@@ -24,19 +19,20 @@
     ],
     "installer": {
         "script": [
+            "$discord_appdata = Join-Path $env:LocalAppData 'DiscordCanary' 'app-current'",
+            "$discord_scoop = Join-Path $(appdir discord-canary) 'current'",
+            "New-Item $discord_appdata -ItemType SymbolicLink -Value $discord_scoop -Force",
             "cd $dir",
             "npm i",
-            "$discord = $(appdir discord-canary).replace('\\','/')",
-            "Set-Content $dir/injectors/win32.js \"exports.getAppDir = async () => '$discord/current/resources/app';\" ",
             "npm run plug"
         ]
     },
     "uninstaller": {
         "script": [
             "cd $dir",
-            "$discord = $(appdir discord-canary).replace('\\','/')",
-            "Set-Content $dir/injectors/win32.js \"exports.getAppDir = async () => '$discord/current/resources/app';\" ",
-            "npm run unplug"
+            "npm run unplug",
+            "$discord_appdata = Join-Path $env:LocalAppData 'DiscordCanary' 'app-current'",
+            "if (test-path $discord_appdata) { rm $discord_appdata }"
         ]
     },
     "notes": "Be sure to restart the Discord client."
