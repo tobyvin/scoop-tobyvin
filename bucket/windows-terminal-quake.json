@@ -15,9 +15,7 @@
             "wt-quake"
         ]
     ],
-    "persist":[
-        "windows-terminal-quake.json"
-    ],
+    "persist": "windows-terminal-quake.json",
     "checkver": {
         "github": "https://github.com/flyingpie/windows-terminal-quake",
         "regex": "v([\\d.]+)/windows-terminal-quake-v(?<version>(?<short>[\\d\\w.]+)+[-_\\d]+).zip"
