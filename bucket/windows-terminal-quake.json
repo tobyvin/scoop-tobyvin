@@ -1,5 +1,5 @@
 {
-    "version": "0.7",
+    "version": "0.8",
     "description": "Companion program for the new Windows Terminal that enables Quake-style drop down",
     "homepage": "https://github.com/flyingpie/windows-terminal-quake",
     "license": {
