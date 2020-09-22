@@ -6,7 +6,6 @@
     "url": "https://github.com/pester/pester/archive/5.0.4.zip",
     "hash": "29ca6a825908b70bcf376bf784af64152dd537a8070128441762747fb91f724b",
     "extract_dir": "Pester-5.0.4/src",
-    "extract_to": "Pester",
     "psmodule": {
         "name": "Pester"
     },
