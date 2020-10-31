@@ -8,7 +8,8 @@
     "notes": "",
     "depends": "dotnet-sdk",
     "url": "https://terramap.github.io/resources/TerraMap-1.4.10.zip",
-    "hash": "bc9612a522af2b822b4e857bf67c986857b23a711411a55cd554335c910cd4bf",
+    "hash": "be81c3544ed49679b971144755bc8ef564fe296cc039a294c46cdff44e2fddf1",
+    "extract_dir": "TerraMap-1.4.10",
     "bin": "TerraMap.exe",
     "shortcuts": [
         [
