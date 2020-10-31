@@ -1,0 +1,24 @@
+{
+    "version": "4.2.2",
+    "description": "TEdit is a stand alone, open source map editor for Terraria. It lets you edit maps just like (almost) paint! It also lets you change world settings (time, bosses downed etc), edit chests and change sign, make epic dungeons, castles, cities, and add rewards for your adventurers!",
+    "homepage": "https://terramap.github.io/windows.html",
+    "license": {
+        "identifier": "MS-PL"
+    },
+    "notes": "",
+    "depends": "",
+    "url": "https://github.com/TEdit/Terraria-Map-Editor/releases/download/4.2.2/TEdit4.2.2.zip",
+    "hash": "aad3e5178695cab186e9f684a199dc6e682d57d1f8639c8e83dd69d09d9b4b6c",
+    "bin": "TEdit.exe",
+    "shortcuts": [
+        [
+            "TEdit.exe",
+            "TEdit"
+        ]
+    ],
+    "persist": "settings.xml",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/TEdit/Terraria-Map-Editor/releases/download/$version/TEdit$version.zip"
+    }
+}
