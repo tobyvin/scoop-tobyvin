@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "description": "Installs ",
+    "homepage": "https://visualstudio.microsoft.com/downloads",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://visualstudio.microsoft.com/license-terms/mlt031519/"
+    },
+    "notes": "## NOT TESTED ## Restart needed. You can also run 'scoop uninstall vsc_buildtools' to remove the installer",
+    "depends": "",
+    "url": "https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16",
+    "hash": "86235e17f5022de9569ced16541e5dacd9f79c3dd7b7e06e210b5bd28b178ce5",
+    "bin": "",
+    "post_install": [
+        "vs_buildtools.exe --quiet --wait --norestart --nocache `",
+        "--add Microsoft.VisualStudio.Workload.MSBuildTools `",
+        "--add Microsoft.VisualStudio.Workload.VCTools `",
+        "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64`",
+        "--add Microsoft.VisualStudio.Component.Windows10SDK.18362"
+    ]
+}
