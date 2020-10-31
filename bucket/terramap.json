@@ -7,7 +7,7 @@
     },
     "notes": "",
     "depends": "dotnet-sdk",
-    "url": "https://github.com/TerraMap/windows/archive/1.4.10.zip",
+    "url": "https://terramap.github.io/resources/TerraMap-1.4.10.zip",
     "hash": "bc9612a522af2b822b4e857bf67c986857b23a711411a55cd554335c910cd4bf",
     "bin": "TerraMap.exe",
     "shortcuts": [
@@ -18,6 +18,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/TerraMap/windows/archive/$version.zip"
+        "url": "https://terramap.github.io/resources/TerraMap-$version.zip"
     }
 }
