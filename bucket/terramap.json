@@ -1,0 +1,23 @@
+{
+    "version": "4.2.2",
+    "description": "TerraMap Windows is an interactive Terraria v1.4 world map viewer that loads quickly and lets you pan, zoom, find blocks, ores, items in chests, dungeons, NPCs, etc.",
+    "homepage": "https://github.com/TEdit/Terraria-Map-Editor",
+    "license": {
+        "identifier": "GPL-3.0-only"
+    },
+    "notes": "",
+    "depends": "dotnet-sdk",
+    "url": "https://github.com/TerraMap/windows/archive/1.4.10.zip",
+    "hash": "bc9612a522af2b822b4e857bf67c986857b23a711411a55cd554335c910cd4bf",
+    "bin": "TerraMap.exe",
+    "shortcuts": [
+        [
+            "TerraMap.exe",
+            "TerraMap"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/TerraMap/windows/archive/$version.zip"
+    }
+}
