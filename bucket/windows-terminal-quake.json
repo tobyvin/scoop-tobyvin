@@ -1,13 +1,13 @@
 {
-    "version": "0.10",
+    "version": "0.11",
     "description": "Companion program for the new Windows Terminal that enables Quake-style drop down",
     "homepage": "https://github.com/flyingpie/windows-terminal-quake",
     "license": {
         "identifier": "MIT"
     },
     "depends": "windows-terminal",
-    "url": "https://github.com/flyingpie/windows-terminal-quake/releases/download/v0.10/windows-terminal-quake-v0.10-2020-10-14_1917.zip",
-    "hash": "c74ea01d0ea8e171effe768b5adc85f55c005b5eea55adf4bde518a5084af713",
+    "url": "https://github.com/flyingpie/windows-terminal-quake/releases/download/v0.11/windows-terminal-quake-v0.11-2020-11-02_0001.zip",
+    "hash": "2d49e5d10519c48e0ec63b6f8328e11bc95c53b9f0948adee6862ed88213c726",
     "bin": "windows-terminal-quake.exe",
     "shortcuts": [
         [
