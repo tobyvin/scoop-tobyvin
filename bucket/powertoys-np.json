@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/microsoft/PowerToys/releases/download/v0.25.0/PowerToysSetup-0.25.0-x64.exe#/setup.msi_",
-            "hash": "ef63a70fc1c4b718410d3129d1691ab3814b4f7d1cea402e6507b0133ca2f09c"
+            "hash": "e857c78d68ff628e624d470871dea6197d9e58d74a183daf6418309812c3c91f"
         }
     },
     "installer": {
