@@ -1,13 +1,13 @@
 {
-    "version": "1.27.0.200908",
+    "version": "1.28.0.210127",
     "description": "DockerComposeCompletion. Docker command completion for PowerShell",
     "homepage": "https://github.com/matt9ucci/DockerComposeCompletion",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/matt9ucci/DockerComposeCompletion/blob/master/LICENSE"
     },
-    "url": "https://psg-prod-eastus.azureedge.net/packages/dockercomposecompletion.1.27.0.200908.nupkg",
-    "hash": "ac846aad1015f2fce949a0fd6ade015ae3505767955949df728a682b57332b8c",
+    "url": "https://psg-prod-eastus.azureedge.net/packages/dockercomposecompletion.1.28.0.210127.nupkg",
+    "hash": "f94185de665d2eed08ebb0b349e5ad0d58bbb8f1741a38f7ac6256da7dde6710",
     "psmodule": {
         "name": "DockerComposeCompletion"
     },
