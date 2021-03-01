@@ -1,11 +1,11 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.1",
     "description": "An opinionated Plaster template for high-quality PowerShell modules",
     "homepage": "https://github.com/devblackops/Stucco",
     "license": "MIT",
-    "url": "https://github.com/devblackops/Stucco/archive/v0.2.0.zip",
-    "hash": "4f94e4262ba8d9ee6d7acdab5695bc71ef309903589d43e46c3e7b3866e7a4a3",
-    "extract_dir": "Stucco-0.2.0/Stucco",
+    "url": "https://github.com/devblackops/Stucco/archive/v0.3.1.zip",
+    "hash": "9895884bcb63f64b66088f7045904ccaa80b040c7475e67a7bf477b459477a98",
+    "extract_dir": "Stucco-0.3.1/Stucco",
     "psmodule": {
         "name": "Stucco"
     },
