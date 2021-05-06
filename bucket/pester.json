@@ -1,11 +1,11 @@
 {
-    "version": "5.1.1",
+    "version": "5.2.0",
     "description": "Pester is a test and mock framework for PowerShell.",
     "homepage": "https://github.com/pester/Pester",
     "license": "Apache-2.0",
-    "url": "https://github.com/pester/pester/archive/5.1.1.zip",
-    "hash": "f48c2d69765fcff502bec2d736d2ae55e85a03b5b978726418830fc49ce2562d",
-    "extract_dir": "pester-5.1.1",
+    "url": "https://github.com/pester/pester/archive/5.2.0.zip",
+    "hash": "5f7710cc93964973ceab133191714a288e5ac5b815ab26dfb4a36c055bbf0bd8",
+    "extract_dir": "pester-5.2.0",
     "psmodule": {
         "name": "Pester"
     },
